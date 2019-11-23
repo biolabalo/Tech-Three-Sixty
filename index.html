@@ -29,7 +29,10 @@
         <link rel="stylesheet" href="https://www.macrotelgroup.com/assets/font/flaticon.css">
     
         <!-- Bootstrap-->
-        <link rel="stylesheet" href="https://www.macrotelgroup.com/assets/plugins/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+       
         <!-- Animation -->
         <link rel="stylesheet" href="https://www.macrotelgroup.com/assets/plugins/css/animate.css">
         <!-- owl -->
@@ -57,7 +60,12 @@
         <link rel="alternate stylesheet" href="https://www.macrotelgroup.com/assets/less/colors/yellow.css" title="yellow">
         <link rel="alternate stylesheet" href="https://www.macrotelgroup.com/assets/less/colors/red.css" title="red">
         <link rel="alternate stylesheet" href="https://www.macrotelgroup.com/assets/less/colors/blue-munsell.css" title="blue-munsell">
-
+        <style>
+ .navbar-fixed-top {
+    position: absolute;
+    z-index: 1030;
+}
+            </style>
     </head>
     <body>
         <header>
@@ -81,13 +89,45 @@
                                         <span aria-hidden="true" class="icon"></span>
                                     </button>
                                 <!-- page brand -->
-                                <a class="navbar-brand" href="index.html"><img src="images/threesixty.PNG" alt="" class="img-responsive"></a>
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="images/threesixty.PNG"  
+                                    style="height:130px;"
+                                    alt="" 
+                                    class="img-responsive">
+                                </a>
                             </div>
                             <div class="collapse navbar-collapse gradient-bg" id="js-navbar-menu">
-                                <ul class="nav navbar-nav navbar-right" id="navbar-nav">
+                                <ul class="nav navbar-nav navbar-right" id="navbar-nav" style="margin-top:30px">
                                     <li class="active"><a href="#header-slider">Home</a></li>
                                     <li><a href="#macrotel-about">About</a></li>
-                                    <li><a href="#macrotel-service">Service</a></li>
+                                    <li><a href="#macrotel-service">Services</a></li>
+
+
+
+
+
+
+                                    <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                              <li><a href="#">Action</a></li>
+                                              <li><a href="#">Another action</a></li>
+                                              <li><a href="#">Something else here</a></li>
+                                              <li role="separator" class="divider"></li>
+                                              <li class="dropdown-header">Nav header</li>
+                                              <li><a href="#">Separated link</a></li>
+                                              <li><a href="#">One more separated link</a></li>
+                                            </ul>
+                                          </li>
+
+
+
+
+
+
+
+
+
                                     <li><a href="#macrotel-product">Platforms</a></li>
                                     <li><a href="#macrotel-footer">Contact</a></li>
                                 </ul>
@@ -107,7 +147,7 @@
             <div class="animation-slides owl-carousel owl-theme" id="animation-slide">
                 
                  <!--Slide 3-->
-                <div style="background-image:url(images/data.jpg)" class="item image-bg">
+                <div style="background-image:url(images/Fleet-Efficiency.jpg)" class="item image-bg">
                     <div class="slide-table">
                         <div class="slide-tablecell">
                             <div class="container">
@@ -115,8 +155,7 @@
                                     <div class="col-sm-12">
                                         <div class="appko-home-content slide-text">
                                             <h1>Fleet Management solutions.</h1>
-                                            <p>Real-time vehicle logistics, maintenance and fueling data at your fingertips.</p>
-                                        </div>
+                                            <p>Real-time fleet telematics, maintenance and fueling data at your finger tips </div>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +163,7 @@
                     </div>
                 </div>
                  <!--Slide 1-->
-                <div style="background-image:url(images/master.jpg)" class="item image-bg">
+                <div style="background-image:url(images/StockSnap_1RNGUH53J0.jpg)" class="item image-bg">
                     <div class="slide-table">
                         <div class="slide-tablecell">
                             <div class="container">
@@ -133,7 +172,7 @@
                                     <div class="col-sm-12">
                                         <div class="appko-home-content slide-text">
                                             <h1>Facility Management</h1>
-                                            <p>Easily create, assign and track jobs anywhere anytime.</p>
+                                            <p>Effortless work order collaboration and communication with vendors , artisans via SMS and email alert</p>
                                            
                                         </div>
                                     </div>
@@ -152,7 +191,7 @@
                                     <div class="col-sm-12">
                                         <div class="appko-home-content slide-text">
                                             <h1>driver’s  recruitment and performance management,</h1>
-                                            <p>We provide ...</p>
+                                            <p>We provide quality background checks for professional drivers </p>
                                            
                                         </div>
                                     </div>
@@ -164,7 +203,7 @@
                 
 
                  <!--Slide 2-->
-                 <div style="background-image:url(images/phone.jpg)" class="item image-bg">
+                 <div style="background-image:url(images/selective-focus-photography-of-person-holding-turned-on-1092644.jpg)" class="item image-bg">
                     <div class="slide-table">
                         <div class="slide-tablecell">
                             <div class="container">
@@ -172,7 +211,7 @@
                                     <div class="col-sm-12">
                                         <div class="appko-home-content slide-text">
                                             <h1> Mobile Financial Services</h1>
-                                            <p>We provide ...</p>
+                                            <p>We provide mobile and digital payment solutions seamlessly </p>
                                            
                                         </div>
                                     </div>
@@ -542,7 +581,7 @@
         <script src="https://www.macrotelgroup.com/assets/plugins/js/packery-mode.pkgd.js"></script>
         <!-- init -->
         <script src="https://www.macrotelgroup.com/assets/js/init.js"></script>
-        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
         <!-- ****************
           After neccessary customization/modification, Please minify 
           JavaScript/jQuery according to http://browserdiet.com/en/ for better performance
