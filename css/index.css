@@ -1,0 +1,44 @@
+ .cd-product-content {
+    border-radius: 4px;
+    box-shadow: 0 1px 14px #999;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.carousel-item{
+ height: 500px;
+}
+.carousel-item .row{
+    height: 100%
+}
+
+.carousel-inner {
+    height: 100%;
+} 
+
+
+
+#left {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 35%;
+    height: 100%;
+}
+
+#right {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 63%;
+    height: 100%;
+}
+
+#left {
+
+}
+
+#right {
+  
+}
