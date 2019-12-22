@@ -28,3 +28,9 @@ height: 100%;
     background-size: cover;
     height: 430px;
 }
+
+.fleetmgr_bg_2{
+    background: url("https://miro.medium.com/max/3200/1*GZ1KWwuOYz_zxnPa_apf9Q.png") no-repeat center center;
+    background-size: cover;
+    height: 430px;  
+}
