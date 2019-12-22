@@ -1,0 +1,15 @@
+.navbar-fixed-top {
+    position: absolute;
+    z-index: 1030;
+}
+
+.appko-img-feature .appko-each-inner {
+    padding-top: 10px;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .navbar-fixed-top  .container {
+        width: 1350px;
+    }
+}
