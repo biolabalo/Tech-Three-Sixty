@@ -19,26 +19,8 @@
     height: 100%;
 } 
 
-
-
-#left {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 35%;
-    height: 100%;
-}
-
-#right {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 63%;
-    height: 100%;
-}
-
-#left {
-
-}
-
-#right {
-  
+.fleetmgr_bg {
+    background: url("https://media.gettyimages.com/photos/black-man-standing-in-front-of-semitrucks-picture-id856730386?s=2048x2048") no-repeat center center;
+    background-size: cover;
+    height: 430px;
 }
