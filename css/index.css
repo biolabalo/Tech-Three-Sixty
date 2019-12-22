@@ -35,3 +35,10 @@ height: 100%;
     background-size: cover;
     height: 430px;  
 }
+
+
+.fleetmgr_bg_3{
+    background: url("../images/phone.jpg") no-repeat center center;
+    background-size: cover;
+    height: 430px;  
+}
