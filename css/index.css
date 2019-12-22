@@ -3,13 +3,17 @@
     box-shadow: 0 1px 14px #999;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    width: 700px;
+    width: 850px;
     margin: 0 auto;
     margin-top: 50px;
 }
 
 .carousel-item{
  height: 500px;
+}
+
+.carousel-item .col-4 {
+height: 100%;
 }
 .carousel-item .row{
     height: 100%
