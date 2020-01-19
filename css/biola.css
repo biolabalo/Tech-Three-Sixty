@@ -7,6 +7,14 @@
     padding-top: 10px;
 }
 
+.facade{
+    background-image: url("../images/Facility-mang.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black !important;
+}
+
 .navbar-brand img {
     margin-top: 25px;
 }
