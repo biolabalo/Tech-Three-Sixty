@@ -19,6 +19,15 @@
     margin-top: 25px;
 }
 
+
+.list-group-item-info {
+    color: 
+white;
+background-color:
+    #4C72F9;
+    font-size: larger;
+}
+
 @media screen and (min-width: 1200px) {
   .navbar-fixed-top  .container {
         width: 1350px;
