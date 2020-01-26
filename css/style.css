@@ -41,9 +41,7 @@ body {
     color: #999999;
 }
 ul{padding: 0;margin: 0;list-style: none;}
-.section-separator {
-    padding: 100px 0;
-}
+
 .section-separator {
     display: block;
     padding-top: 60px;
