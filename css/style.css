@@ -590,6 +590,12 @@ p {
     height:260px
 }
 
+@media screen and (max-width: 992px) {
+    .section-separator .col-sm-3{
+        margin: 20px;
+    }
+  }
+
 .appko-extra-feature .appko-extra-inner .fa {
     font-size: 40px;
     line-height: 40px;
